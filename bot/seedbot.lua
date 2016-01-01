@@ -220,28 +220,22 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {122774063,106014613},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v1
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/MRAHS/SBSS
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
+@MR_AH_S [Developer]
+@i81therock [Manager]
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
 
 Our channels
-@teleseedch [English]
+@SBSS_Team
 ]],
     help_text = [[
 Commands list :
@@ -433,7 +427,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 122774063
 now = os.time()
 math.randomseed(now)
 started = false

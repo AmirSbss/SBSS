@@ -224,7 +224,7 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[SBSS Version 1.5
+    about_text = [[SBSS Version 1 
 An advance Administration bot based on yagop/telegram-bot by @Mr_Ah_S
 
 https://github.com/MRAHS/SBSS
@@ -339,9 +339,9 @@ Our channels
 **فقط مدیران میتوانند در گروه ربات اد کنند
 
 
-*استفاده کنند kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about,settings فقط مدیران میتوانند از دستورات 
+**فقط مدیران میتوانند از دستورات kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about,settings استفاده کنند
 
-*استفاده کند res,setowner,promote,demote,log فقط صاحب گروه میتواند از 
+**فقط صاحب گروه می تواند از دستورات res,setowner,promote,demote,log استفاده کند
 
 ]]
 
@@ -427,7 +427,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 122774063
+our_id = 137653134
 now = os.time()
 math.randomseed(now)
 started = false

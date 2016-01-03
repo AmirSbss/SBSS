@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {122774063,106014613,108151290,109311908},--Sudo users
+    sudo_users = {122774063,106014613,108151290,109311908,114986931},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -233,7 +233,12 @@ Admins
 @MR_AH_S [Developer]
 @i81therock [Manager]
 @Amiirdada [Support]
+Other Admins:
+@Ra3oul13
+@Sajjad0S
+@Alinz325
 
+برای خرید گپ و آموزش و ساخت بوت به @Mr_Ah_S
 
 Our channels
 @SBSS_Team

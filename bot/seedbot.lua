@@ -220,11 +220,11 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {122774063,106014613},--Sudo users
+    sudo_users = {122774063,106014613,108151290,109311908},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[SBSS Version 1 
+    about_text = [[SBSS Version 2
 An advance Administration bot based on yagop/telegram-bot by @Mr_Ah_S
 
 https://github.com/MRAHS/SBSS
@@ -232,13 +232,14 @@ https://github.com/MRAHS/SBSS
 Admins
 @MR_AH_S [Developer]
 @i81therock [Manager]
+@Amiirdada [Support]
 
 
 Our channels
 @SBSS_Team
 ]],
     help_text = [[
-:لیست دستورات 
+لیست دستورات 
 
 !kick [username|id]
 حذف فرد از گروه حتی با ریپلای

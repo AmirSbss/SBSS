@@ -222,7 +222,7 @@ function create_config( )
     },
     sudo_users = {122774063,106014613,108151290,109311908,114986931,106164433},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {79472297},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[SBSS Version 2
 An advance Administration bot based on yagop/telegram-bot by @Mr_Ah_S

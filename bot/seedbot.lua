@@ -227,7 +227,7 @@ function create_config( )
     about_text = [[SBSS Version 2
 An advance Administration bot based on yagop/telegram-bot by @Mr_Ah_S
 
-https://github.com/MRAHS/SBSS
+https://Github.com/MRAHS/SBSS
 
 Admins
 @MR_AH_S [Developer]
@@ -238,7 +238,7 @@ Other Admins:
 @Sajjad0S
 @Alinz325
 
-برای خرید گپ و آموزش و ساخت بوت به @Mr_Ah_S
+برای خرید گپ به 4 آیدی اول و برای خرید آموزش ساخت ربات ضد اسپم و ساخت ربات ضد اسپم به @Mr_Ah_S مراجعه کنید
 
 Our channels
 @SBSS_Team

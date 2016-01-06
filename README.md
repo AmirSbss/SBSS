@@ -1,4 +1,4 @@
-# [TeleSeed](https://telegram.me/TeleSeed) 
+# [SBSS](https://telegram.me/SBSS_Bot) 
 **An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**
 # Features
 

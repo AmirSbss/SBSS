@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {122774063,106014613,108151290,109311908,114986931,106164433},--Sudo users
+    sudo_users = {122774063,106014613,108151290,114986931,121208333},--Sudo users
     disabled_channels = {},
     realm = {79472297},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -231,12 +231,12 @@ https://Github.com/MRAHS/SBSS
 
 Admins
 @MR_AH_S [Developer]
-@i81therock [Manager]
+@Ra3oul13 [Manager]
 @Amiirdada [Support]
 Other Admins:
-@Ra3oul13
+@Taha_sh_report
 @Sajjad0S
-@Alinz325
+@i81therock
 
 برای خرید گپ به 4 آیدی اول و برای خرید آموزش ساخت ربات ضد اسپم و ساخت ربات ضد اسپم به @Mr_Ah_S مراجعه کنید
 
@@ -339,6 +339,9 @@ Our channels
 !banlist
 لیست افراد بن شده
 
+!calc معادل 
+حل معادله ریاضی
+مثال : !calc 1*2
 **شما هم میتوانید از ! استفاده کنید و هم میتوانید از / استفاده کنید 
 
 

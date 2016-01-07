@@ -1,0 +1,39 @@
+local function antilinkkick(cb_extra, success, result)
+	chat_del_user(antilinkchat, antilinkuser, ok_cb, true)
+end
+
+local function run(msg, matches)
+	antilinkchat = 'chat#id'..msg.to.id
+	antilinkuser = 'user#id'..msg.from.id
+	local receiver = get_receiver(msg)
+	local chat = get_receiver(msg)
+	if not is_chat_msg(msg) then
+		return nil
+	end
+	if is_sudo(msg) then
+		return nil
+	elseif is_admin(msg) then
+		return nil
+	elseif is_momod(msg) then
+		return nil
+	elseif tonumber(msg.from.id) == tonumber(our_id) then
+		return nil
+	else
+		send_large_msg(antilinkchat, "ØªØ¨Ù„ÛŒØº Ù…Ù…Ù†ÙˆØ¹")
+		chat_info(chat, antilinkkick, {receiver=receiver})
+	end
+end
+
+return {
+	description = "Anti Link",
+	--usage = {
+		--"",
+	--},
+	patterns = {
+		"http:",
+		"https:",
+		"telegram.me",
+		"^(?antilink)$"
+	},
+	run = run,
+}
